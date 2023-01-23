@@ -1,0 +1,66 @@
+
+
+    
+@media (min-width:760px) {.container1{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap :7rem;
+        padding: 2%;
+         align-items: flex-start;
+    }
+    
+}
+
+.box1 {
+    margin-left: 15%;
+    flex: 1;
+    margin-top:6%;
+    
+}
+.box2{
+	display: flex;
+image-resolution: 10%;
+	align-items: center;
+    flex: 2;
+}
+
+.bold{
+    color: rgb(8, 8, 8);
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+
+h1 {  font-family: 'Montserrat, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+h2{
+    text-align: center;
+    padding: 1%;
+    
+    
+}
+
+.Feature-Box{
+    padding: 1%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p {color: #8f8f8f;
+line-height: 2;}
+h3{font-family: montserrat-Bold;
+font-size: 1.3rem;}
+
+.second-button{display: flex;
+    justify-content: center;
+
+}
+.Get{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+

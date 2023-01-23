@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+<body class="bg-indingo-50">
+  <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+    <div class="flex justify-between items-center" >
+        <span class="text-2xl font [poppings] cursor-pointer">
+            <img class="h-10 inline" src="data:image/jpeg;base64,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" alt="">
+            Exchange
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
+    </div>
+    <ul class="md:flex md:items-center z-[-1]
+     md:z-auto md:static absolute bg-white 
+     w-full left-0 md:w-auto md:py-0 
+     py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 
+     top-[-400px] transition-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0"><a href="#"  class="text-xl hover:text-sky-400 duraction-500">Home</a></li>
+        <li class="mx-4 my-6 md:my-0" ><a href="#" class="text-xl hover:text-sky-400 duraction-500">Buy Crypto</a></li>
+        <li class="mx-4 my-6 md:my-0" ><a href="#" class="text-xl hover:text-sky-400 duraction-500">Markets</a></li>
+        <li class="mx-4 my-6 md:my-0 " ><a href="#" class="text-xl hover:text-sky-400 duraction-500">News</a></li>
+        <li class="mx-4 my-6 md:my-0 " ><a href="#" class="text-xl hover:text-sky-400 duraction-500">NFTs</a></li>
+        <li class="mx-4 my-6 md:my-0 " ><a href="#" class="text-xl hover:text-sky-400 duraction-500">Login</a></li>
+        <li class="mx-4 my-6 md:my-0" ><a href="#" class="text-xl hover:text-sky-400 duraction-500"></a></li>
+
+        <button class="bg-cyan-400 text-white font-[poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">Signup</button>
+    </ul>
+
+  </nav>
+
+
+<div class="container1">
+  <div class="box1">
+    <h1 class="bold">Buy And Sell Crypto Currency</h1>
+    <p>Buy the next 100x gems with lower fees and quick withdraalsf <br>
+    fyfyufyfeyfyefyhfdfvcvdytcvgdvcgdvgcdv </p>
+    
+    <button class="bg-cyan-400 text-white font-[poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">Sign up</button>
+ 
+    
+    
+  </div>
+  <div class="box2">
+    <img src="./page lander 2.webp" alt="">
+  </div>
+
+
+
+</div>
+
+
+<div class="Get" ><h2>Get started in few minutes</h2></div>
+
+    <div class="flex flex-wrap">
+      
+      
+            <div class="Feature-Box flex-auto">
+              <ion-icon name="person-add-sharp"></ion-icon>
+              <h3>Open an account</h3>
+              <p>Sign up instantly using web/mobile app</p>  
+            </div>
+
+                <div class="Feature-Box flex-auto ">
+                  <ion-icon name="wallet-outline"></ion-icon>
+                  <h3>Deposit funds</h3>
+                  <p>Buy securely with credit/debit card</p>  
+                 </div>
+
+                   <div class="Feature-Box flex-auto">
+                     <i class="fi fi-ss-sack-dollar"></i>
+                     <h3>Start trading</h3>
+                     <p>Trade, Earn, Nominate & Win Rewards</p>  
+                   </div>
+       
+    </div>
+    <div class="second-button" ><button class="bg-cyan-400 text-white font-[poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">Signup</button>
+    </div>
+   
+  <script>
+    function Menu(e) {
+        let list = document.querySelector('ul');
+
+        e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :(e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+        
+    }
+  </script>
+</body>
+</html>
